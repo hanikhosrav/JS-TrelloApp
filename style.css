@@ -1,0 +1,48 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/2262136.jpg");
+    background-attachment: fixed;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .addTasks {
+    background: #ffe6ee;
+    font-family: 'Brush Script MT', cursive;
+  }
+  
+  .clear {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    font-family: 'Brush Script MT', cursive;
+  }
+  
+  .trash:hover {
+    cursor: pointer;
+    color: #b30047;
+    font-size: 20px;
+  }
+  
+  .table {
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 18px;
+  }
+  
+  thead tr {
+    background: #ffe6f2;
+  }
+  
+  tr:nth-child(even) {
+    background: #ffe6e6;
+  }
+  
+  #error {
+    display: none;
+    color: #ff0066;
+  }
+  
